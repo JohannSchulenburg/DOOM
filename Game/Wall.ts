@@ -1,4 +1,4 @@
-namespace L09_Doom_Control {
+namespace Doom {
   import ƒ = FudgeCore;
 
   export class Wall extends GameObject {

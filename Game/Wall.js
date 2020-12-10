@@ -1,8 +1,8 @@
 "use strict";
-var L09_Doom_Control;
-(function (L09_Doom_Control) {
+var Doom;
+(function (Doom) {
     var ƒ = FudgeCore;
-    class Wall extends L09_Doom_Control.GameObject {
+    class Wall extends Doom.GameObject {
         // private static readonly meshQuad: ƒ.MeshQuad = new ƒ.MeshQuad();
         constructor(_size, _position, _rotation, _material) {
             super("Wall", _size, _position, _rotation);
@@ -12,6 +12,6 @@ var L09_Doom_Control;
             this.addComponent(cmpMaterial);
         }
     }
-    L09_Doom_Control.Wall = Wall;
-})(L09_Doom_Control || (L09_Doom_Control = {}));
+    Doom.Wall = Wall;
+})(Doom || (Doom = {}));
 //# sourceMappingURL=Wall.js.map
